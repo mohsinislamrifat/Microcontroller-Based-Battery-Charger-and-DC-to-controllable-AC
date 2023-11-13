@@ -22,8 +22,8 @@ Circuit (ii): DC to AC Converter / Inverter Circuit
 • In our country we use 50~60 Hz AC frequency.
 • Arduino UNO’s Digital Pin number ‘6’ can generate a (square wave) PWM of62500 Hz
 frequency, where cycle length is 256 (0~255).
-• But, by the help of a divisor, we can generate (62500/1024 = ) 61.035 Hz. Forthis purpose,
-following setting is needed to use:
+• But, by the help of a divisor, we can generate (62500/1024 = ) 61.035 Hz.
+Forthis purpose,following setting is needed to use:
 TCCR0B = TCCR0B & 0b11111000 | 0x05
 {Reference: http://playground.arduino.cc/Main/TimerPWMCheatsheet}
 Here the duty cycle 50% is achieved, in the Arduino code Analog Write(255*50% ≈ )
