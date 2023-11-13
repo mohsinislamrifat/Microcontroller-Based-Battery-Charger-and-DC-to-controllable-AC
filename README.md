@@ -41,7 +41,8 @@ voltage (say, VGS = 0).
 • Here, first half period of one cycle, when transistor(1) is in forward biased, there is no
 MOSFET(1) Gate voltage because the current is directly bypassed to the ground via transistor(1) and
 the MOSFET(1) goes OFF state.
-• During this period transistor(2) is in reverse biased and MOSFET(2) goes ON state.• Next half period of that cycle, same but opposite operation occurs.
+• During this period transistor(2) is in reverse biased and MOSFET(2) goes ON state.
+• Next half period of that cycle, same but opposite operation occurs.
 • This allows the DC voltage to be produced across the primary of the transformer at alternate
 intervals. It is 6v AC.
 • The 6v AC signal across the primary of the transformer is then stepped up to 220v AC signal
